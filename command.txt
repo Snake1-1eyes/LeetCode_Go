@@ -1,0 +1,6 @@
+//initial
+go mod init <Module name>
+
+// tests
+go test -v -coverprofile cover.out <folder name>
+go tool cover -html cover.out -o cover.html
